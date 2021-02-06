@@ -1,0 +1,202 @@
+
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,700');
+@import url("https://fonts.googleapis.com/css?family=Metal+Mania");
+
+@font-face {
+    font-family: "Booter - Zero Zero";
+    src: url("Fonts/Booter - Zero Zero.woff") format("woff"),
+         url("Fonts/Booter - Zero Zero.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color:white;
+  width: 100%;
+  background-position: center;
+}
+
+.branding {
+  /* background-color: #56ccf2; */
+  min-height: 90px;
+  text-align: center;
+  vertical-align: center;
+  font-family: "Metal Mania";
+  /* background-image: url(/assets/images/freestocks-_3Q3tsJ01nc-unsplash.jpg); */
+  background-size: cover;
+  background-position-y: 50%;
+  background-repeat: no-repeat;
+  color: rgb(255, 255, 255);
+  background-image: url(/assets/images/header-image-1-1799x1012.jpg);
+  padding-top: 20px;
+  border-bottom: 2px solid black;
+}
+
+.opening-pic{
+    /* background-color: red; */
+    /* background-image: url(assets/images/freestocks-_3Q3tsJ01nc-unsplash.jpg); */
+    min-height: 120px;
+    background-image: url(/assets/images/freestocks-_3Q3tsJ01nc-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+.section-1 {
+  padding-top: 50px;
+  display: flex;
+  margin: 10px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 100%;
+  margin: auto;
+  /* background-image: url(/assets/images/freestocks-_3Q3tsJ01nc-unsplash.jpg); */
+  background-position: center;
+  background-size: cover;
+  background-position-y: 50%;
+  background-color: white;
+  /* background-repeatone; */
+}
+
+.content-section {
+  /* margin-top: 50px; */
+  /* background-color: orange; */
+  /* margin-bottom: 50px; */
+  /* width: 100%; */
+}
+.card {
+  margin: 10px;
+  /* box-shadow: 10px 10px 10px 10px black; */
+}
+
+.card:hover{
+    box-shadow:0px 10px 50px rgba(0,0,0,0.7)
+}
+
+.cart-header {
+  font-weight: bold;
+  font-size: 1.25em;
+  color: #333;
+}
+
+.cart-column {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid black;
+  margin-right: 1.5em;
+  padding-bottom: 10px;
+  margin-top: 10px;
+}
+
+.cart-row {
+  display: flex;
+}
+
+.cart-item {
+  width: 45%;
+}
+
+.cart-price {
+  width: 20%;
+  font-size: 1.2em;
+  color: #333;
+}
+
+.cart-quantity {
+  width: 35%;
+}
+
+.cart-item-title {
+  color: #333;
+  margin-left: 0.5em;
+  font-size: 1.2em;
+}
+
+.cart-item-image {
+  width: 75px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.btn-danger {
+  color: white;
+  background-color: #eb5757;
+  border: none;
+  border-radius: 0.3em;
+  font-weight: bold;
+}
+
+.btn-danger:hover {
+  background-color: #cc4c4c;
+}
+
+.cart-quantity-input {
+  height: 34px;
+  width: 50px;
+  border-radius: 5px;
+  border: 1px solid #56ccf2;
+  background-color: #eee;
+  color: #333;
+  padding: 0;
+  text-align: center;
+  font-size: 1.2em;
+  margin-right: 25px;
+}
+
+.cart-row:last-child {
+  border-bottom: 1px solid black;
+}
+
+.cart-row:last-child .cart-column {
+  border: none;
+}
+
+.cart-total {
+  text-align: end;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.cart-total-title {
+  font-weight: bold;
+  font-size: 1.5em;
+  color: black;
+  margin-right: 20px;
+}
+
+.cart-total-price {
+  color: #333;
+  font-size: 1.1em;
+}
+
+.btn-purchase {
+  display: block;
+  margin: 40px auto 80px auto;
+  font-size: 1.75em;
+}
+.main-footer {
+  background-color: #56ccf2;
+  color: white;
+  padding: 0.25em 0;
+}
+
+.main-footer-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.main-footer-container ul {
+  /* flex-grow: 1; */
+  text-align: end;
+}
+
+.footer-nav li {
+  padding: 0 0.5em;
+}
+
+.footer-nav img {
+  width: 30px;
+  height: 30px;
+}

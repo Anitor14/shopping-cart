@@ -1,0 +1,86 @@
+{
+  "groupName": "Blue Group",
+  "groupLeader": "Anitor Abraham",
+  "groupMembers": ["Anike Daniel", "Anitor Abraham", "Faith Kenneth", "Samuel Okpara"],
+  "projectName": "Shopping Cart",
+  "products": [
+
+    {
+      "name": "Gaming Pad",
+      "price": "5000",
+      "color": "black",
+      "weight": "10kg",
+      "image": "assets/images/gaming.jpg"
+    },
+    {
+      "name": "kettle",
+      "price": "3000",
+      "color": "silver",
+      "weight": "20kg",
+      "image": "assets/images/kettle.jpg"
+    },
+    {
+      "name": "schoolbag",
+      "price": "4000",
+      "color": "red",
+      "weight": "30kg",
+      "image": "assets/images/schoolbag.jpg"
+    },
+    {
+      "name": "slippers",
+      "price": "50000",
+      "color": "brown",
+      "weight": "5kg",
+      "image": "assets/images/slippers.jpg"
+    },
+    {
+      "name": "nosemask",
+      "price": "1000",
+      "color": "indigo",
+      "weight": "0.5kg",
+      "image": "assets/images/nosemask.webp"
+    },
+    {
+      "name": "banana",
+      "price": "200",
+      "color": "yellow",
+      "weight": "0.3kg",
+      "image": "assets/images/banana.png"
+    },
+    {
+      "name": "apple",
+      "price": "500",
+      "color": "red",
+      "weight": "3$",
+      "image": "assets/images/apple.jpg"
+    },
+    {
+      "name": "pen",
+      "price": "100",
+      "color": "black",
+      "weight": "0.2kg",
+      "image": "assets/images/pen.jpg"
+    },
+    {
+      "name": "television",
+      "price": "500000",
+      "color": "black",
+      "weight": "50kg",
+      "image": "assets/images/television.jpg"
+    },
+    {
+      "name": "shirt",
+      "price": "3000",
+      "color": "purple",
+      "weight": "1kg",
+      "image": "assets/images/shirt.webp"
+    },
+    {
+      "name":"laptop",
+      "price":"110000",
+      "color":"silver",
+      "weight":"20kg",
+      "image":"assets/images/laptop.jpg"
+    }
+  ]
+}
